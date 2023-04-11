@@ -5,9 +5,10 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #ffffff;
-  margin: 0;
+  margin: 8px;
   min-height: 100%;
   min-width: 1200px;
+  display: block;
 }
 
 body.light-mode {
@@ -17,8 +18,13 @@ body.light-mode {
   
 /* Dark mode */
 body.dark-mode {
-  background-color: #333;
+  background-color: #333333;
   color: #fff;
+}
+
+.dark-mode .intro {
+  background-color: #383385;
+  color: #fafbfd;
 }
 
 .visually-hidden {
@@ -188,16 +194,6 @@ img {
   filter: hue-rotate(0);
   opacity: 0.6;
 }
-  
-/* .header-email {
-    padding-left: 30px;
-    background-image: url("./img/icon-email-header.svg");
-}
-  
-.header-phone {
-    padding-left: 25px;
-    background-image: url("./img/icon-phone-header.svg");
-}
    */
 .hero-image {
   position: relative;
@@ -226,7 +222,7 @@ img {
   line-height: 120px;
   letter-spacing: -2px;
   font-weight: 400;
-  color: #8da2ed;
+  color: #ff0000;
 }
   
 .hero-image p {
@@ -341,6 +337,10 @@ img {
   margin: 0;
   width: 100%;
   margin-left: 45px;
+}
+
+.funParagraph {
+  color: #008000;
 }
 
 .intro .skills {
