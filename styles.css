@@ -424,6 +424,10 @@ img {
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .portfolio-grid {
